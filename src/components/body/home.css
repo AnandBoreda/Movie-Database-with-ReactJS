@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+.home-bg {
+  display: grid;
+  grid-template-areas:
+    "title"
+    desc;
+  height: 71.2vh;
+  top: 0px;
+  margin: 0px;
+  text-align: center;
+  background: url("../body/bg-img.png") no-repeat center center/cover;
+  position: relative;
+  box-shadow: inset 120px 100px 250px #000000, inset -120px -100px 250px #000000;
+}
+.home-title {
+  grid-area: "title";
+  align-self: end;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  font-family: "Righteous", cursive;
+  text-shadow: 0px 0px 20px #000000;
+}
+.home-desc {
+  grid-area: "desc";
+  color: #ffffff;
+  font-family: "Righteous", cursive;
+  text-shadow: 0px 0px 20px #000000;
+}
+@media only screen and (max-width: 450px) {
+  .home-bg {
+    box-shadow: inset 60px 80px 150px #000000, inset -50px -50px 250px #000000;
+  }
+}

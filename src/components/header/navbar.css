@@ -1,0 +1,55 @@
+a {
+  text-decoration: none;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(39, 39, 39);
+  width: 100vw;
+  height: 13vh;
+  box-shadow: 0px 0px 30px black;
+}
+
+.Title {
+  color: #fff;
+  align-self: center;
+  font-family: "Righteous", cursive;
+  text-shadow: 0px 0px 20px #8f8f8f;
+}
+sub {
+  margin-left: 1rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  /* font-family: "Righteous", cursive; */
+  text-shadow: 0px 0px 10px #ffffff;
+}
+.badge {
+  margin-right: 2rem;
+  background-color: rgb(231, 231, 17);
+  border-radius: 1rem;
+  padding: 0.8rem;
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  font-weight: 1000;
+}
+
+@media only screen and (max-width: 450px) {
+  .Title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  sub {
+    font-size: 0.6rem;
+  }
+  .badge {
+    margin-right: 0.5rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .Title {
+    font-size: 1.3rem;
+  }
+}
