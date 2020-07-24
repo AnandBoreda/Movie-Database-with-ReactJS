@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./footer.css";
 
 function Footer() {
@@ -7,13 +8,13 @@ function Footer() {
       <nav className="base-nav">
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/movies">Movies</a>
+            <Link to="/movies">Movies</Link>
           </li>
           <li>
-            <a href="/tv-shows">Tv Shows</a>
+            <Link to="/tv-shows">Tv Shows</Link>
           </li>
         </ul>
       </nav>
