@@ -13,7 +13,7 @@ function Footer() {
           <li>
             <Link to="/movies">Movies</Link>
           </li>
-          <li>
+          <li className="text-overflow-center">
             <Link to="/tv-shows">Tv Shows</Link>
           </li>
         </ul>

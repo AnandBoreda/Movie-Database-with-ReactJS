@@ -5,7 +5,7 @@ class Home extends Component {
     return (
       <div className="home-bg">
         <h1 className="home-title">Anand's Movie Database</h1>
-        <p className="home-desc">The Biggest Movies collection</p>
+        <p className="home-desc">millions of movies and TV shows</p>
       </div>
     );
   }

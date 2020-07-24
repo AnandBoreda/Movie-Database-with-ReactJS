@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap");
 .form {
   /* height: 87vh; */
   width: 100vw;
@@ -7,6 +8,8 @@
   width: 20rem;
   text-align: center;
   font-size: 2rem;
+  font-family: "Baloo Da 2";
+  font-weight: 600;
   margin: 2% 0px 0px 43%;
 }
 .input {
@@ -15,7 +18,8 @@
   border-radius: 20px;
   border: none;
   outline: none;
-  box-shadow: 0px 0px 60px rgb(102, 96, 96);
+  /* box-shadow: 0px 0px 60px rgb(102, 96, 96); */
+  box-shadow: 0px 0px 25px #4b4b4b;
   margin: 2% 0px 0px 40%;
 }
 
@@ -33,6 +37,7 @@
 }
 .showing-results {
   /* display: none; */
+  font-family: "Baloo Da 2";
   margin: 0% 0% 0% 25%;
   width: 60vw;
 }
@@ -42,7 +47,7 @@ p {
 .card {
   padding: 2rem 1.5rem;
   border-radius: 10px;
-  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 0px 25px black;
   margin: 2rem;
   background-color: white;
   text-align: center;
@@ -61,6 +66,7 @@ p {
 .card--desc {
   text-align: justify;
 }
+/* mobile */
 @media only screen and (max-width: 450px) {
   .search-movies-title {
     margin: 5vw 0px 0px 15vw;
@@ -82,7 +88,7 @@ p {
     font-size: 0.8em;
   }
 }
-
+/* tablet */
 @media screen and (min-width: 700px) and (max-width: 980px) {
   .search-movies-title {
     margin: 5% 0px 0px 25%;
@@ -97,5 +103,25 @@ p {
   }
   .card--title {
     font-size: 2rem;
+  }
+}
+/* smaller mobiles */
+@media only screen and (min-width: 300px) and (max-width: 400px) {
+  .search-movies-title {
+    margin: 5vw 0px 0px 8vw;
+  }
+  .input {
+    padding: 0.5rem 1rem;
+    margin: 5%;
+  }
+  .search-button {
+    margin: -2% 0% 5% 75%;
+    padding: 2vh 6vw;
+  }
+  .movies-container {
+    margin: -10px;
+  }
+  .card--title {
+    font-size: 1.8rem;
   }
 }

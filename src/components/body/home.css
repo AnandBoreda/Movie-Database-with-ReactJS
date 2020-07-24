@@ -18,16 +18,24 @@
   padding: 0;
   margin: 0;
   color: #ffffff;
-  font-family: "Righteous", cursive;
-  text-shadow: 0px 0px 20px #000000;
+  font-size: 4vw;
+  font-family: "Righteous";
+  text-shadow: 0px 0px 30px #000000;
 }
 .home-desc {
   grid-area: "desc";
   color: #ffffff;
-  font-family: "Righteous", cursive;
+  font-size: 2vw;
+  font-family: "Righteous";
   text-shadow: 0px 0px 20px #000000;
 }
 @media only screen and (max-width: 450px) {
+  .home-title {
+    font-size: 8vw;
+  }
+  .home-desc {
+    font-size: 4vw;
+  }
   .home-bg {
     box-shadow: inset 60px 80px 150px #000000, inset -50px -50px 250px #000000;
   }
