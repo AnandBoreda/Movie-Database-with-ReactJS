@@ -1,26 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&display=swap");
-.form {
-  /* height: 87vh; */
-  width: 100vw;
-}
 
 .search-movies-title {
-  width: 20rem;
   text-align: center;
   font-size: 2rem;
   font-family: "Baloo Da 2";
   font-weight: 600;
-  margin: 2% 0px 0px 43%;
+  margin-top: 2%;
+  text-align: center;
 }
+
 .input {
   font-size: 1.3rem;
   padding: 1rem 5rem;
   border-radius: 20px;
   border: none;
   outline: none;
-  /* box-shadow: 0px 0px 60px rgb(102, 96, 96); */
-  box-shadow: 0px 0px 25px #4b4b4b;
-  margin: 2% 0px 0px 40%;
+  box-shadow: 0px 0px 25px #000000;
+  margin: 2% 0px 0px 34%;
 }
 
 .search-button {
@@ -29,17 +25,17 @@
   border: none;
   padding: 0.8rem 1.5rem;
   border-radius: 60px;
-  box-shadow: 0px 0px 15px rgb(102, 96, 96);
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
   margin-left: 1%;
 }
 .movies-container {
   margin: 0px 25%;
 }
 .showing-results {
-  /* display: none; */
+  display: none;
   font-family: "Baloo Da 2";
-  margin: 0% 0% 0% 25%;
-  width: 60vw;
+  text-align: center;
+  padding-top: 1rem;
 }
 p {
   font-size: 1.2em;
@@ -72,11 +68,15 @@ p {
     margin: 5vw 0px 0px 15vw;
   }
   .input {
-    padding: 1rem 3rem;
-    margin: 5%;
+    padding: 1rem 0.5rem;
+    margin: 5% 0 0 5%;
+    text-align: center;
   }
   .search-button {
-    margin: -2% 0% 5% 75%;
+    padding: 1rem 1.3rem;
+    border-radius: 60px;
+
+    margin: 0 0% 5% 5%;
   }
   .movies-container {
     margin: 0px;
@@ -110,14 +110,7 @@ p {
   .search-movies-title {
     margin: 5vw 0px 0px 8vw;
   }
-  .input {
-    padding: 0.5rem 1rem;
-    margin: 5%;
-  }
-  .search-button {
-    margin: -2% 0% 5% 75%;
-    padding: 2vh 6vw;
-  }
+
   .movies-container {
     margin: -10px;
   }

@@ -31,6 +31,7 @@ function SearchMovies() {
       <div>
         <form className="form" onSubmit={searchMovies}>
           <h2 className="search-movies-title">Search Movies</h2>
+
           <input
             className="input"
             type="text"
@@ -40,6 +41,7 @@ function SearchMovies() {
             onChange={(e) => setQuery(e.target.value)}
             required
           />
+
           <button className="search-button" type="submit">
             <FontAwesomeIcon icon={faSearch} />
           </button>
